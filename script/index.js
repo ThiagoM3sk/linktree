@@ -1,6 +1,7 @@
 function enviar(){
     let linkSocial = document.getElementById('link')
     let redeSocial = document.getElementById('rede')
+    let resu = document.getElementById('final')
     
     
 
@@ -10,8 +11,9 @@ function enviar(){
         let link = document.createElement('a')
         link.setAttribute('href', `${linkSocial.value}`)
         link.setAttribute('target', '_blank')
-        
+        link.innerHTML += `${redeSocial.value}<br>`
         link.style.display = 'none'
+        resu.appendChild(link)
     }
 }
 
@@ -25,7 +27,7 @@ function finalizar(){
     fim.setAttribute('href', `${linkS.value}`)
     fim.setAttribute('target', '_blank')
 
-    fim.innerHTML = `${redeS.value}`
+    fim.innerHTML += `${redeS.value}<br>`
     
     final.style.display = 'inline-block'
     campoLink.style.display = 'none'
