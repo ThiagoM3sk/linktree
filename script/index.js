@@ -11,25 +11,17 @@ function enviar(){
         let link = document.createElement('a')
         link.setAttribute('href', `${linkSocial.value}`)
         link.setAttribute('target', '_blank')
+        link.setAttribute('class', 'social')
         link.innerHTML += `${redeSocial.value}<br>`
-        link.style.display = 'none'
+        resu.style.display = 'none'
         resu.appendChild(link)
     }
 }
 
 function finalizar(){
-    let redeS = document.getElementById('rede')
-    let linkS = document.getElementById('link')
     let final = document.getElementById('final')
     let campoLink = document.getElementById('campo-link')
 
-    let fim = document.createElement('a')
-    fim.setAttribute('href', `${linkS.value}`)
-    fim.setAttribute('target', '_blank')
-
-    fim.innerHTML += `${redeS.value}<br>`
-    
     final.style.display = 'inline-block'
     campoLink.style.display = 'none'
-    final.appendChild(fim)
 }
