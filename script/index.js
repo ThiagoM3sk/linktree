@@ -12,6 +12,8 @@ function enviar(){
         link.setAttribute('href', `https://${redeSocial.value}.com/${user.value}`)
         link.setAttribute('target', '_blank')
         link.setAttribute('class', 'social')
+        
+        link.style.textTransform = 'capitalize'
         link.innerHTML += `${redeSocial.value}<br>`
         resu.style.display = 'none'
         resu.appendChild(link)
