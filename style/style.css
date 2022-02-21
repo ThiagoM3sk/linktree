@@ -42,24 +42,16 @@ section input{
 section button{
     padding: 3px;
 }
-
-main div{
-    text-align: center;
-    margin: auto;
+div#final{
     max-width: 600px;
-    padding: 20px;
     background-color: transparent;
-    border: 2px white solid;
-    display: none;
-}
-div a{
+    margin: auto;
     padding: 20px;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
     text-align: center;
 }
-div:hover > a{
-    text-decoration: underline;
-
+div.social{
+    border: 2px solid white;
+    width: 550px;
+    padding: 20px;
+    text-align: center;
 }

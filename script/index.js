@@ -12,16 +12,18 @@ function enviar(){
         alert('Preencha os campos')
         redeSocial.focus()
     }
-
+    
+    let areaLinks = document.createElement('div')
+    areaLinks.setAttribute('class', 'social')
     let link = document.createElement('a')
         link.setAttribute('href', `https://${redeSocial.value}.com/${user.value}`)
         link.setAttribute('target', '_blank')
-        link.setAttribute('class', 'social')
         
         link.style.textTransform = 'capitalize'
         link.innerHTML += `${redeSocial.value}<br>`
         resu.style.display = 'none'
-        resu.appendChild(link)
+        areaLinks.appendChild(link)
+        resu.appendChild(areaLinks)
 
         redeSocial.value = ''
         //user.value = ''
