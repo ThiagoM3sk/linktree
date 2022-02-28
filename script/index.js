@@ -20,10 +20,10 @@ function enviar(){
         link.setAttribute('target', '_blank')
         
         link.style.textTransform = 'capitalize'
-        link.innerHTML += `${redeSocial.value}<br>`
+        areaLinks.innerHTML += `${redeSocial.value}<br>`
         resu.style.display = 'none'
-        areaLinks.appendChild(link)
-        resu.appendChild(areaLinks)
+        link.appendChild(areaLinks)
+        resu.appendChild(link)
 
         redeSocial.value = ''
         //user.value = ''
