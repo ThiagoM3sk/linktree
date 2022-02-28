@@ -34,8 +34,10 @@ function finalizar(){
     let campoLink = document.getElementById('campo-link')
     let usuario = document.getElementById('user')
     let userFinal = document.getElementById('link')
+    let title = document.getElementById('title')
 
     usuario.innerHTML = `@${userFinal.value}`
+    title.innerHTML = `@${userFinal.value} | Linktree`
     final.style.display = 'inline-block'
     campoLink.style.display = 'none'
 }

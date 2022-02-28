@@ -9,6 +9,12 @@
 #user{
     font-weight: bolder;
 }
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -54,4 +60,11 @@ div.social{
     width: 550px;
     padding: 20px;
     text-align: center;
+    text-decoration: none;
+}
+
+a:hover > .social {
+    color: #6a50f5;
+    background-color: #fff;
+    transition: 0.3s;
 }
