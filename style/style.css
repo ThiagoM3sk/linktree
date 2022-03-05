@@ -61,6 +61,12 @@ div.social{
     padding: 20px;
     text-align: center;
     text-decoration: none;
+
+    position: relative;
+}
+div.social{
+    left: 350px;
+    margin-bottom: 20px;
 }
 
 a:hover > .social {
