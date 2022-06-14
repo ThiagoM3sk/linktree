@@ -6,11 +6,13 @@ function enviar(){
     if(user.value == ''){
         alert('Preencha os campos')
         user.focus()
+        return
     }
     
     if(redeSocial.value == ''){
         alert('Preencha os campos')
         redeSocial.focus()
+        return
     }
     
     let areaLinks = document.createElement('div')
