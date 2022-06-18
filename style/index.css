@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-a, a:visited{
+a{
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -22,15 +22,31 @@ body{
 }
 
 #container{
+    background-image: url('imagens/backg1.jpg');
     margin-top: 100px;
     width: 80%;
     max-width: 500px;
     margin-inline: auto;
 }
 
-h3, p{
+img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+h1, h2, p{
     margin-top: 10px;
     margin-bottom: 20px;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 16px;
 }
 
 .social{
