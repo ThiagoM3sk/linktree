@@ -19,3 +19,7 @@ HTML | CSS | JS
 bom | médio | médio
 
 _**ThiagoM3sk&copy;**_
+---
+Este site está sendo reformulado e terá o layout totalmente alterado. Já está em produção e está disponível para acesso na _branch_ **newMain**. Em breve, este README também será totalmente alterado.
+Agora o site será estático e não mais interativo como era antes. Irá apenas constar os links das redes sociais.
+Em caso de dúvidas, entre em contato pelo e-mail disponível no perfil do Github.
