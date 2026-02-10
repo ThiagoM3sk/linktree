@@ -17,12 +17,16 @@ a{
 
 body{
     background-image: url('../imagens/backg2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     background-color: black;
     font-family: sans-serif;
     text-align: center;
     color: white;
 }
-
+#about{
+    color: white;
+}
 #container{
     background-color: #000000de;
     margin-top: 100px;

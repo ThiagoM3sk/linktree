@@ -1,0 +1,21 @@
+body{
+    background-image: url('../imagens/backg2.jpg');
+}
+#about{
+    background-color: #000000de;
+    margin-top: 100px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin-inline: auto;
+    border-radius: 15px;
+    font-size: 20px;
+}
+img{
+    width: 10%;
+    margin-top: 20px;
+}
+p{
+    text-align: justify;
+    
+}
