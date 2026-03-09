@@ -1,6 +1,6 @@
 # Mesk Site
 Este site foi lançado com o intuito de ter o início de um portifólio, que está sendo desenvolvido em outro código. Por ora consta apenas links sociais para que seja possível entrar em contato comigo, e um breve "About me".
-Enquanto estudo um pouco mais sobre desenvolvimento web e programação, vou aperfeiçoando o site, que no momento está bem simples, funcionando apenas como uma "árvore de links".
+Enquanto estudo um pouco mais sobre desenvolvimento web e programação, vou aperfeiçoando o site, que no momento está bem simples, funcionando apenas como uma "árvore de links". <br>
 Pretendo, até o fim do ano, lançar um site novo como portifólio totalmente reformulado, com áreas sobre "projeto", "sobre mim" e "contate-me" inclusive com domínio personalizado (thiagomesk.com).
 <!--
 Bom, eu quis "copiar" o site original do Linktree, a príncipio era como um site estático, sem precisar de programação, apenas HTML e CSS, mas depois resolvi tentar fazer algo com um pouco de JavaScript, e deu certo (de certa forma), então decidi que ficará assim do jeito que está.
